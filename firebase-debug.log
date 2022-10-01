@@ -1,0 +1,74 @@
+[debug] [2022-09-29T16:07:16.711Z] ----------------------------------------------------------------------
+[debug] [2022-09-29T16:07:16.712Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PYM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-29T16:07:16.713Z] CLI Version:   11.11.0
+[debug] [2022-09-29T16:07:16.713Z] Platform:      win32
+[debug] [2022-09-29T16:07:16.713Z] Node Version:  v16.17.0
+[debug] [2022-09-29T16:07:16.714Z] Time:          Fri Sep 30 2022 00:07:16 GMT+0800 (Hong Kong Standard Time)
+[debug] [2022-09-29T16:07:16.714Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-29T16:07:16.776Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-29T16:07:16.776Z] > authorizing via signed-in user (pangyatming@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\MyFolder\Projects Development\React\my-react-blog
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-29T16:07:24.594Z] Using project from CLI flag: my-react-blog-8dc71
+[debug] [2022-09-29T16:07:24.596Z] > refreshing access token with scopes: []
+[debug] [2022-09-29T16:07:24.599Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-29T16:07:24.599Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-29T16:07:24.733Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-29T16:07:24.733Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-29T16:07:24.743Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-react-blog-8dc71 [none]
+[debug] [2022-09-29T16:07:25.064Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-react-blog-8dc71 200
+[debug] [2022-09-29T16:07:25.064Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-react-blog-8dc71 {"projectId":"my-react-blog-8dc71","projectNumber":"661237252865","displayName":"my-react-blog","name":"projects/my-react-blog-8dc71","resources":{"hostingSite":"my-react-blog-8dc71","storageBucket":"my-react-blog-8dc71.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a7781bfb-25a9-4390-9a05-a4026cfe67f4"}
+[info] i  Using project my-react-blog-8dc71 (my-react-blog) 
+[info] 
+=== Functions Setup
+[debug] [2022-09-29T16:07:25.072Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-29T16:07:25.072Z] > authorizing via signed-in user (pangyatming@gmail.com)
+[debug] [2022-09-29T16:07:25.072Z] [iam] checking project my-react-blog-8dc71 for permissions ["firebase.projects.get"]
+[debug] [2022-09-29T16:07:25.073Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-react-blog-8dc71:testIamPermissions [none]
+[debug] [2022-09-29T16:07:25.073Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-react-blog-8dc71:testIamPermissions x-goog-quota-user=projects/my-react-blog-8dc71
+[debug] [2022-09-29T16:07:25.073Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-react-blog-8dc71:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-29T16:07:26.012Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-react-blog-8dc71:testIamPermissions 200
+[debug] [2022-09-29T16:07:26.012Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-react-blog-8dc71:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-29T16:07:26.013Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-09-29T16:07:26.013Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/my-react-blog-8dc71
+[debug] [2022-09-29T16:07:26.014Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-09-29T16:07:26.014Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/my-react-blog-8dc71
+[debug] [2022-09-29T16:07:27.323Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/runtimeconfig.googleapis.com 200
+[debug] [2022-09-29T16:07:27.323Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2022-09-29T16:07:27.355Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/cloudfunctions.googleapis.com 200
+[debug] [2022-09-29T16:07:27.355Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/my-react-blog-8dc71/services/cloudfunctions.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
